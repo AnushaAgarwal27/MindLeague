@@ -1,0 +1,113 @@
+{
+  "foundations": [
+    {
+      "id": "f1",
+      "prompt": "What is the time complexity of binary search?",
+      "choices": ["O(n)", "O(log n)", "O(n²)", "O(1)"],
+      "answer": 1,
+      "explanation": "Binary search divides the search space in half each iteration."
+    },
+    {
+      "id": "f2",
+      "prompt": "What is 15 × 8?",
+      "choices": ["110", "120", "130", "140"],
+      "answer": 1,
+      "explanation": "15 × 8 = 120"
+    },
+    {
+      "id": "f3",
+      "prompt": "Which data structure uses LIFO?",
+      "choices": ["Queue", "Stack", "Tree", "Graph"],
+      "answer": 1,
+      "explanation": "Stack follows Last In First Out principle."
+    },
+    {
+      "id": "f4",
+      "prompt": "What is 2⁵?",
+      "choices": ["16", "32", "64", "128"],
+      "answer": 1,
+      "explanation": "2⁵ = 32"
+    },
+    {
+      "id": "f5",
+      "prompt": "What does HTML stand for?",
+      "choices": ["Hyper Text Markup Language", "High Tech Modern Language", "Home Tool Markup Language", "Hyperlinks and Text Markup Language"],
+      "answer": 0,
+      "explanation": "HTML is HyperText Markup Language."
+    }
+  ],
+  "scholars": [
+    {
+      "id": "s1",
+      "prompt": "Which sorting algorithm has O(n log n) average case?",
+      "choices": ["Bubble Sort", "Quick Sort", "Selection Sort", "Insertion Sort"],
+      "answer": 1,
+      "explanation": "Quick Sort averages O(n log n)."
+    },
+    {
+      "id": "s2",
+      "prompt": "What is the derivative of x³?",
+      "choices": ["2x²", "3x²", "3x", "x²"],
+      "answer": 1,
+      "explanation": "d/dx(x³) = 3x²"
+    },
+    {
+      "id": "s3",
+      "prompt": "In BFS traversal, which data structure is used?",
+      "choices": ["Stack", "Queue", "Heap", "Array"],
+      "answer": 1,
+      "explanation": "BFS uses a Queue."
+    },
+    {
+      "id": "s4",
+      "prompt": "What is log₂(64)?",
+      "choices": ["4", "5", "6", "7"],
+      "answer": 2,
+      "explanation": "2⁶ = 64, so log₂(64) = 6"
+    },
+    {
+      "id": "s5",
+      "prompt": "Which is NOT a stable sorting algorithm?",
+      "choices": ["Merge Sort", "Quick Sort", "Insertion Sort", "Bubble Sort"],
+      "answer": 1,
+      "explanation": "Quick Sort is not stable by default."
+    }
+  ],
+  "masters": [
+    {
+      "id": "m1",
+      "prompt": "What is the chromatic number of a complete graph K₅?",
+      "choices": ["3", "4", "5", "6"],
+      "answer": 2,
+      "explanation": "Complete graph Kₙ has chromatic number n."
+    },
+    {
+      "id": "m2",
+      "prompt": "Which problem is NP-Complete?",
+      "choices": ["Sorting", "Binary Search", "Traveling Salesman", "Matrix Multiplication"],
+      "answer": 2,
+      "explanation": "TSP is a classic NP-Complete problem."
+    },
+    {
+      "id": "m3",
+      "prompt": "What is ∫ eˣ dx?",
+      "choices": ["eˣ + C", "xeˣ + C", "eˣ/x + C", "ln(x) + C"],
+      "answer": 0,
+      "explanation": "The integral of eˣ is eˣ + C."
+    },
+    {
+      "id": "m4",
+      "prompt": "In a min-heap with n elements, what's the height?",
+      "choices": ["O(log n)", "O(n)", "O(n log n)", "O(√n)"],
+      "answer": 0,
+      "explanation": "Heap height is logarithmic."
+    },
+    {
+      "id": "m5",
+      "prompt": "How many spanning trees does K₄ have?",
+      "choices": ["12", "16", "20", "24"],
+      "answer": 1,
+      "explanation": "By Cayley's formula: n^(n-2) = 4² = 16"
+    }
+  ]
+}
