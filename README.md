@@ -1,5 +1,5 @@
 # MindLeague MVP - University Battle Platform
-
+testing
 # Authors/Collaborators
 
 // Add github to the right
